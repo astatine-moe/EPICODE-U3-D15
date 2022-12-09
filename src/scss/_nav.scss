@@ -1,0 +1,65 @@
+nav {
+    width: 100%;
+    height: 4em;
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-left: 2em;
+    padding-right: 2em;
+    .navigation-buttons {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        a {
+            background-color: rgba(0, 0, 0, 0.349);
+            border-radius: 50%;
+            margin-right: 0.5em;
+            width: 35px;
+            height: 35px;
+            vertical-align: middle;
+            line-height: 35px;
+            text-align: center;
+        }
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+
+        div {
+            padding: 0 0.5em 0 0.5em;
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 1);
+            height: 50%;
+            border-radius: 25em;
+            img {
+                height: 60%;
+                margin-right: 0.5em;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+.nav-item svg {
+    margin-right: 1em;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.brand {
+    font-size: 2em;
+}
+.library-icon {
+    transform: scaleX(-1);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
